@@ -1,5 +1,5 @@
-sudo docker build -t sisedgar/app_pythonedgar:v2 .
-
+sudo docker build -t app_pythonedgar .
+sudo docker tag app_pythonedgar sisedgar/app_pythonedgar:v2
 
 docker images
 En otra ventana de terminal     sudo docker stats
