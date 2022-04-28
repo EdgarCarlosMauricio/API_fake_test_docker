@@ -1,3 +1,4 @@
+```
 sudo docker build -t app_pythonedgar .
 sudo docker tag app_pythonedgar sisedgar/app_pythonedgar:v2
 
@@ -38,4 +39,4 @@ sudo docker attach eefc0cb3ada9
 
 Para eliminar un contenedor debemos ejecutar.
 sudo docker rm eefc0cb3ada9
-
+```
